@@ -1,0 +1,47 @@
+<html>
+    <head>
+    <script src="https://www.gstatic.com/firebasejs/10.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.10.0/firebase-firestore.js"></script>
+    
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+        <h1>Historial Bares</h1>
+
+        <div class="content">
+
+            <form id="add-cafe-form">
+                <input type="text" name="name" placeholder="Nombre Bar">
+                <input type="text" name="city" placeholder="Ciudad Bar">
+                <button>Agregar Bar</button>
+            </form>
+
+            <ul id="cafe-list"></ul>
+
+        </div>
+
+        <script type="module">
+            
+            const firebaseConfig = {
+                apiKey: "AIzaSyAnv6ElvQ-Coh2i6kdV4Az3jRpg71RbLEQ",
+                authDomain: "proyectos-2bd62.firebaseapp.com",
+                projectId: "proyectos-2bd62",
+                storageBucket: "proyectos-2bd62.appspot.com",
+                messagingSenderId: "540847022860",
+                appId: "1:540847022860:web:098b6dc6cdeb3e77ab5f29",
+                measurementId: "G-BRZ0TFDXL7"
+};
+          
+            // Initialize Firebase
+           // const app = initializeApp(firebaseConfig);
+           // const analytics = getAnalytics(app);
+
+            firebase.initializeApp(firebaseConfig);
+            const db = firebase.firestore();
+            db.settings({timestampsInSnapshots: true});
+
+          </script>
+        <script src="app.js"></script>
+    </body>
+</html>
