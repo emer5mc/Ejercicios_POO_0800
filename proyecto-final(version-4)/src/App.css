@@ -1,0 +1,329 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+}
+
+.login-box {
+  background-color: white;
+  padding: 20px;
+  margin-top: 50px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 5px;
+}
+
+.login-box label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 20px; /* Espacio superior */
+}
+.button-container button {
+  background-color: #757975; /* Color de fondo verde */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 8px; /* Bordes redondeados */
+}
+.button-container button:hover {
+  background-color: #ba3333; /* Cambio de color al pasar el cursor */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ccc; /* Color de fondo gris */
+}
+
+.header {
+  background-color: black; /* Color de fondo negro */
+  height: 200px; /* Altura del encabezado */
+}
+
+.red-bar {
+  background-color: red; /* Color de fondo rojo */
+  height: 60px; /* Altura de la barra roja */
+  margin-bottom: -90px; /* Espacio entre la barra roja y el contenido */
+}
+
+.create-account-container {
+  margin: auto;
+  text-align: center;
+  width: 287px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 10px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 100; /* Elimina el margen superior */
+  margin-bottom: 10px; /* Agrega margen inferior */
+}
+
+.create-account-button {
+  padding: 5px 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 25px;
+  width: calc(100% - 40px); /* Ancho igual al del contenedor padre */
+  margin-top: 10px; /* Ajusta el margen superior según sea necesario */
+}
+/* En tu archivo App.css */
+.logo {
+  display: block;
+  margin: 0 auto; /* Centrar horizontalmente */
+  max-width: 200px; /* Tamaño máximo */
+  width: 100%; /* Para asegurar que se ajuste al contenedor */
+}
+.centered {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+.form-container {
+  text-align: center;
+}
+
+.input-container {
+  margin-top: 20px; /* Espacio sobre el cuadro rojo */
+}
+
+.red-box {
+  background-color: red;
+  height: 50px; /* Altura del cuadro rojo */
+}
+.red-bar {
+  background-color: red;
+  height: 60px;
+  margin-bottom: -90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.red-bar h2 {
+  color: white; /* Color del texto */
+  margin: 0; /* Elimina el margen interior */
+  font-size: 1.5em; /* Tamaño del texto */
+}
+.red-box {
+  background-color: red; /* Cambia el color de fondo a rojo */
+  height: 60px; /* Altura del cuadro rojo */
+  display: flex;
+  justify-content: center; /* Centra horizontalmente el contenido */
+  align-items: center; /* Centra verticalmente el contenido */
+}
+
+.red-box p {
+  color: white; /* Cambia el color del texto a blanco */
+  font-size: 24px; /* Tamaño de letra más grande */
+}
+
+/* CSS adicional para la gráfica circular */
+.circle {
+  width: 150px; /* Tamaño de la gráfica */
+  height: 150px; /* Tamaño de la gráfica */
+  border-radius: 50%; /* Forma de círculo */
+}
+.logout-button {
+  position: absolute;
+  top: 10px;
+  right: 30px; /* Cambia este valor según sea necesario */
+  width: 10px;
+  height: 20px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.logout-button {
+  color: white; /* Color blanco */
+  font-size: 30px; /* Tamaño de fuente más grande */
+}
+body.logged-in {
+  background-color: #222; /* Color de fondo más oscuro */
+}
+body.logged-in {
+  background-color: #3f3a3a; /* Color de fondo más oscuro */
+  color: white; /* Color de texto blanco */
+}
+/* CSS adicional para centrar elementos */
+.total-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.total-item {
+  text-align: center;
+}
+
+.income {
+  color: green;
+  font-weight: bold;
+}
+
+.expense {
+  color: red;
+  font-weight: bold;
+}
+
+.balance {
+  font-weight: bold;
+}
+
+
+.historial-container {
+  text-align: center; /* Centra el texto */
+  margin-top: 20px; /* Espacio superior */
+}
+
+.circle-container {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  margin-top: 20px; /* Espacio superior */
+}
+form-container {
+  text-align: center; /* Centra el contenido horizontalmente */
+}
+
+.form-input {
+  display: block;
+  width: 20%; /* Ancho del input */
+  margin: 10px auto; /* Margen entre los elementos */
+}
+
+.form-select {
+  display: block;
+  width: 100%; /* Ancho del select */
+  margin: 10px auto; /* Margen entre los elementos */
+}
+
+.form-button {
+  display: block;
+  width: 100%; /* Ancho del botón */
+  margin: 10px auto; /* Margen entre los elementos */
+}
+.buttons-container {
+  text-align: center;
+  margin-top: 10px; /* Espacio arriba de los botones */
+}
+
+.gray-button {
+  background-color: gray;
+  color: white;
+  padding: 5px 10px;
+  margin-right: 10px; /* Espacio entre los botones */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.gray-button:last-child {
+  margin-right: 0; /* Eliminar margen derecho del último botón */
+}
+.category-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.category-item {
+  width: 30%;
+  background-color: #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+.categories-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.category-box {
+  background-color: gray;
+  color: #ffffff;
+  padding: 7px;
+  margin-top: 5px;
+  width: 275px;
+  text-align: center;
+}
+.error-message {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.back-arrow {
+  font-size: 30px; /* Tamaño de la flecha */
+  cursor: pointer; /* Cambia el cursor al pasar sobre la flecha */
+  margin-right: 10px; /* Espacio a la derecha de la flecha */
+}
+.gray-box {
+  display: flex; /* Usa flexbox para alinear elementos */
+  align-items: center; /* Centra verticalmente los elementos */
+  background-color: gray; /* Color de fondo gris claro */
+  padding: 5px;
+  margin-top: 0px; /* Espacio arriba del cuadro gris */
+}
+
+.arrow {
+  margin-right: 7px; /* Espacio a la derecha de la flecha */
+  cursor: pointer; /* Cambia el cursor al pasar sobre la flecha */
+}
+.transaction-item {
+  background-color: gray; /* Color de fondo gris */
+  padding: 10px; /* Espaciado interno */
+  margin-bottom: 5px; /* Margen inferior */
+  width: 1200%; /* Ancho del cuadro */
+  max-width: 1200px; /* Ancho máximo del cuadro */
+  margin-left: auto; /* Alineación a la derecha */
+  margin-right: auto; /* Alineación a la izquierda */
+}
+.transaction-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.transaction-content button {
+  margin-left: 10px;
+}
+.transaction-item h4 {
+  display: inline-block;
+  margin: 0;
+  font-size: 16px;
+  font-weight: normal;
+  margin-right: 20px;
+  background-color: transparent; /* Elimina el fondo gris */
+  padding: 0; /* Elimina el espaciado interno */
+}
+.transaction-box {
+  background-color: gray; /* Color de fondo gris */
+  padding: 10px; /* Espacio interno */
+  margin-bottom: 10px; /* Espacio entre cada elemento del historial */
+}
+
+.transaction-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.transaction-content span:nth-child(1) {
+  margin-right: 10px; /* Agrega un margen derecho entre la descripción y la cantidad */
+}
+
